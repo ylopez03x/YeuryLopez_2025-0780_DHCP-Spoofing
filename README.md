@@ -4,6 +4,7 @@
 **Materia:** Seguridad de Redes  
 **Fecha:** 31/05/2026  
 
+[Ver demostración en YouTube](https://youtu.be/s4AO-4GtlBM)
 ---
 
 ## Objetivo del Laboratorio
@@ -60,7 +61,8 @@ falsa en el diccionario `asignaciones`.
 ## Documentación de la Red
 
 ### Topología
-> 📸 **[INSERTAR CAPTURA DE LA TOPOLOGÍA EN EVE-NG]**
+> <img width="705" height="617" alt="image" src="https://github.com/user-attachments/assets/de36b205-8930-4fbb-845a-3f85e0ab0c29" />
+
 
 ### Direccionamiento IP
 | Dispositivo | Interfaz | Dirección IP | Máscara | Rol |
@@ -93,17 +95,16 @@ falsa en el diccionario `asignaciones`.
 
 ## Capturas de Pantalla
 
-### Topología del laboratorio
-> 📸 **[INSERTAR CAPTURA DE LA TOPOLOGÍA]**
-
 ### Script esperando solicitudes DHCP
-> 📸 **[INSERTAR CAPTURA DEL SCRIPT CORRIENDO EN KALI]**
+> <img width="797" height="659" alt="image" src="https://github.com/user-attachments/assets/8207c67b-8a50-4e20-b152-f076553c439e" />
+
 
 ### DHCP Discover recibido y Offer enviado
-> 📸 **[INSERTAR CAPTURA DE LA CONSOLA MOSTRANDO EL INTERCAMBIO DHCP]**
+> <img width="809" height="323" alt="image" src="https://github.com/user-attachments/assets/5ec0af09-5393-4ec5-a7ec-eface0d04f17" />
 
 ### PC2 con gateway falso
-> 📸 **[INSERTAR CAPTURA DE: show ip en PC2 mostrando gateway 172.25.78.10]**
+> <img width="492" height="306" alt="image" src="https://github.com/user-attachments/assets/a77dc1fa-2f0b-4eab-8d14-e1091a4517c7" />
+
 
 ---
 
@@ -120,11 +121,10 @@ interface ethernet 0/1
 ```
 
 ### Verificación
-> 📸 **[INSERTAR CAPTURA DE: show ip dhcp snooping en SW1]**
+> <img width="975" height="468" alt="image" src="https://github.com/user-attachments/assets/b4d15f43-1c53-4b43-8215-e7481bc18394" />
+
 
 ### Resultado
 DHCP Snooping solo permite respuestas DHCP desde puertos de 
 confianza, bloqueando cualquier servidor DHCP falso conectado 
 a puertos no confiables.
-
-> 📸 **[INSERTAR CAPTURA DEL SCRIPT CORRIENDO CON CONTRAMEDIDA ACTIVA]**
